@@ -10,7 +10,8 @@ class Linea:
         return f"Linea de {self.p1} a {self.p2}"
     
     def dibujaLinea(self):
-        plt.plot(self.p1.getPunto(), self.p2.getPunto(), 'o', color='green')
+        plt.plot([self.p1.getX, self.p2.getX], [self.p1.getY, self.p2.getY], marker='o', linestyle='-')
+        plt.show()
         
 
     
