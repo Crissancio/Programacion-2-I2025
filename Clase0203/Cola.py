@@ -40,7 +40,7 @@ class Cola:
         else:
             return False
   
-    def nroelem(self):
+    def nroelem(self): # size
         aux = Cola(self.__n)
         contador = 0
         while(not self.isEmpty()):
@@ -53,11 +53,8 @@ class Cola:
             self.insert(dato)        
         return contador
 
-    def nroelem2(self):
+    def nroelem2(self): # size
         return self.__fin -self.__inicio
-
-    def size(self):
-        return self.__n
 
 q = Cola(20)
 
@@ -71,7 +68,6 @@ q.insert(50)
 q.insert(60)
 
 print(q.nroelem())
-print(q.size())
 print(q.nroelem2())
 
 aux = Cola(20)

@@ -58,12 +58,8 @@ public class Cola {
         }
     }
 
-    public int nroelem(){
+    public int nroelem(){ // size
         return this.fin - this.inicio;
-    }
-
-    public int size(){
-        return this.n;
     }
 
     public static void main(String[] args) {
