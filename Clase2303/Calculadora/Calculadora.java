@@ -1,4 +1,4 @@
-package Clase2303;
+package Clase2303.Calculadora;
 
 public class Calculadora {
     

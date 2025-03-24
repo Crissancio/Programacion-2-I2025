@@ -17,6 +17,7 @@ class Calculadora:
     
     # Método que calcula el promedio de N números
     # Metodo que calcula la potencia de un numero elevado a otro
+    
     2^3=2*2*2
     2^(1/2) = 
         

@@ -1,6 +1,6 @@
-package Clase2303;
+package Clase2303.Calculadora;
 
-public class Main {
+public class MainCalculadora {
     
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
