@@ -1,12 +1,12 @@
 public class Mascota{
     private  int cod, año;
-    private String nombre, raza;
+    private String nombre, tipo;
 
-    public Mascota(int cod, int año, String nombre, String raza){
+    public Mascota(int cod, int año, String nombre, String tipo){
         this.cod = cod;
         this.año = año;
         this.nombre = nombre;
-        this.raza = raza;
+        this.tipo = tipo;
     }
 
     public int getCod() {
@@ -33,14 +33,30 @@ public class Mascota{
         this.nombre = nombre;
     }
 
-    public String getRaza() {
-        return raza;
+    public String gettipo() {
+        return tipo;
     }
 
-    public void setRaza(String raza) {
-        this.raza = raza;
+    public void settipo(String tipo) {
+        this.tipo = tipo;
     }
 
+    public String toString() {
+        return "Mascota{" +
+                "cod=" + cod +
+                ", año=" + año +
+                ", nombre='" + nombre + '\'' +
+                ", tipo='" + tipo + '\'' +
+                '}';
+    }
+    public void mostrar(){
+        System.out.println("Mascota{" +
+                "cod=" + cod +
+                ", año=" + año +
+                ", nombre='" + nombre + '\'' +
+                ", tipo='" + tipo + '\'' +
+                '}');
+    }
 
 
 }
