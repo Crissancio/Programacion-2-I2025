@@ -1,3 +1,5 @@
+package Clase2803.Veterinaria;
+
 public class Mascota{
     private  int cod, año;
     private String nombre, tipo;

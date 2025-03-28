@@ -27,7 +27,7 @@ public class Main {
 
         Veterinaria veterinaria = new Veterinaria(dueños, mascotas, vacunas);
         System.out.println("Mascotas con vacuna V1:");
-        veterinaria.mostrarMascotasTipoVacuna("V1");s
+        veterinaria.mostrarMascotasTipoVacuna("V1");
 
     }
 }

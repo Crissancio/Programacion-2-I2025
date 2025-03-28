@@ -1,3 +1,5 @@
+package Clase2803.Veterinaria;
+
 public class Veterinaria{
     private Dueño dueños[];
     private Mascota mascotas[];
@@ -13,7 +15,7 @@ public class Veterinaria{
         for (int i = 0; i<vacunas.length; i++){
             if(vacunas[i].getTipoVacuna().equals(tipoV)){
                 int ciM = vacunas[i].getCiMascota();
-                for(int j = 0; i<mascotas.length;j++){
+                for(int j = 0; j<mascotas.length;j++){
                     if(mascotas[j].getCod() == ciM){
                         mascotas[j].mostrar();
                     }

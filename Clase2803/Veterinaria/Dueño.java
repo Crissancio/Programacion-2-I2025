@@ -1,3 +1,5 @@
+package Clase2803.Veterinaria;
+
 public class Dueño{
     private int ci, añod;
     private String nomd;

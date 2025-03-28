@@ -1,3 +1,5 @@
+package Clase2803.Veterinaria;
+
 public class Vacuna{
     private int ciDueño, ciMascota;
     private String tipoVacuna;
