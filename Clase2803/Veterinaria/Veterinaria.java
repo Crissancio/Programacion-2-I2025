@@ -53,6 +53,36 @@ public class Veterinaria{
         }
         */
     }
+    public void mostrarDueñoMasMascotas2(){
+        int max = 0;
+
+        for(int i = 0; i<dueños.length; i++){
+            int cont = 0;
+
+            for(int j = 0; j < vacunas.length; j++){
+                if(dueños[i].getCi() == vacunas[j].getCiDueño()){
+                    cont++;
+                }
+            }
+            if(cont > max){
+                max = cont;
+
+            }
+
+        }
+
+        for(int i = 0; i<dueños.length; i++){
+            int cont = 0;
+            for(int j = 0; j < vacunas.length; j++){
+                if(dueños[i].getCi() == vacunas[j].getCiDueño()){
+                    cont++;
+                }
+            }
+            if(cont == max){
+                System.out.println("El dueño con más mascotas es: " + dueños[i].getNomd() + " con " + max + " mascotas.");
+            }
+        }
+    }
 
 
     
