@@ -11,4 +11,10 @@ public class Jugador extends Personaje{
         this.armamento = armamento;
 
     }
+    
+    public void atacar(int i){
+        System.out.println("atcando con " + this.armamento[i]);
+        System.out.println("Se ha hecho " + this.daño + " de daño");    
+    }
+    
 }

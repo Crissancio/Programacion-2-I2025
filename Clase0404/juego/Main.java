@@ -8,9 +8,9 @@ public class Main {
 
         String [] armamento = {"Espada", "Gancho", "Arco"};
 
-        Personaje jugador1 = new Jugador(1, 10, 
+        Jugador jugador1 = new Jugador(1, 10, 
         "Salto Alto", "Masculino", "Connor Kanwey", 30F, 50F, "CrickoSaurio", "Asesino Novato", armamento );
 
-        jugador1.curar();
+        jugador1.atacar(1);
     }
 }
