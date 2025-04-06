@@ -11,5 +11,8 @@ public class Estudiante extends Persona {
 
     }
     // Hola soy {nombre} {apellido}, tengo {edad} y voy en {semestre} semeste
+    public void saludo() {
+        System.out.println("Hola soy " + this.getNombre() + " " + this.getApellido() + ", tengo " + this.getEdad() + " y voy en " + this.semestre + " semestre.");
+    }
 
 }

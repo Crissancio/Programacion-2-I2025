@@ -12,5 +12,7 @@ public class Main {
         Estudiante e1 = new Estudiante(35165, "Elmer", "Gutierrez", 18, 1212121, 2);
 
         e1.saludo();
+
+        
     }
 }

@@ -36,6 +36,9 @@ class Estudiante(Persona):
         self.__ru = ru
         self.__semestre = semestre
     
+    def saludo(self):
+        print(f"Hola, soy {self.getNombre()} {self.getApellido()}, tengo {self.getEdad()} y voy{self.__semestre} semestre")
+    
     
     
 

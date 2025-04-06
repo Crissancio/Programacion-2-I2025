@@ -1,5 +1,7 @@
 package Clase0604.univ;
 
+import java.util.Scanner;
+
 public class Persona {
     private long ci;
     private String nombre, apellido;
@@ -10,6 +12,10 @@ public class Persona {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
+    }
+
+    public Persona(){
+        Scanner lee = new Scanner(System.in);
     }
     
 
