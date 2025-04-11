@@ -1,0 +1,27 @@
+Se a solicitado un sistema para manejar entidades bancarias.
+El sistema maneja:
+    -CuentasBancarias donde:
+        -El identificador del usuario es su carnet mas las iniciales de su nombre y apellido.
+        -El saldo inicial es de 0.
+        -El saldo se puede incrementar o decrementar.
+        -El saldo no puede ser negativo.
+
+    -Banco donde:
+        -El banco tiene un nombre y una lista de cuentas bancarias.
+        -El banco puede agregar cuentas bancarias.
+        -El banco puede eliminar cuentas bancarias.
+        
+        -Se pueden realizar transacciones de dinero entre cuentas bancarias del mismo banco.
+        -Se pueden consultar los saldos de las cuentas bancarias.
+       
+        -El puede realizar transacciones entre cuentas bancarias de diferentes bancos.
+    
+Hay una cola de espera de usuarios (Personas) que desean realizar diferentes operaciones en el banco.
+    - crear una cuenta
+    - eliminar una cuenta
+    - realizar un deposito
+    - realizar una transaccion una cuenta x
+    
+    - verificar datos de la cuenta
+
+    - realizar una transaccion una cuenta x de un banco y
