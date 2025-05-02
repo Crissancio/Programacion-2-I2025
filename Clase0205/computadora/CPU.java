@@ -21,4 +21,8 @@ public class CPU {
         System.out.println("Socket: " + socket);
         System.out.println("----------------------------");
     }
+
+    public String getSocket(){
+        return this.socket;
+    }
 }

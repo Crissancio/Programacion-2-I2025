@@ -12,5 +12,7 @@ public class Main{
 
         PC computadora = new PC(cpu, ram, almacenamiento, tarjetaMadre, fuenteDePoder);
         computadora.mostrar();
+
+
     }
 }

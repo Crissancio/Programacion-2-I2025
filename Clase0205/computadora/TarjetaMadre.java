@@ -24,4 +24,12 @@ public class TarjetaMadre {
         System.out.println("Maximo RAM: " + maxRam);
         System.out.println("--------------------------------------");
     }
+
+    public String getSocketCPU(){
+        return this.socketCPU;
+    }
+
+    public int getV_drr(){
+        return this.v_ddr;
+    }
 }

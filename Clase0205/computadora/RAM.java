@@ -18,4 +18,8 @@ public class RAM {
         System.out.println("DDR: " + v_ddr);
         System.out.println("----------------------------");
     }
+
+    public int getV_drr(){
+        return this.v_ddr;
+    }
 }
