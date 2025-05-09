@@ -38,4 +38,17 @@ public class Estudiante extends Persona {
     public float calcularNotaTotal(){
         return (nota_1 + nota_2) / 2;
     }
+
+    public String rendimiento(){
+        float nota = this.calcularNotaTotal();
+        if(nota < 51){
+            return "Reprobado";
+        }else if (nota < 65){
+            return "Malo";
+        }else if(nota < 80){
+            return "Regular";
+        }else{
+            return "Bueno";
+        }
+    }
 }
