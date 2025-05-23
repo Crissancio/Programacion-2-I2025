@@ -51,6 +51,7 @@ public class Materia {
             if(estudiantes[i] == null){
                 break;
             }
+            i++;
         }
         /*
         for(i = 0; i < estudiantes.length; i++){
@@ -72,6 +73,14 @@ public class Materia {
                 if(estudiantes[i].calcularNotaTotal() < 51){
                     System.out.println("Estudiante: "+ estudiantes[i].getNombre()+" Nota: "+ estudiantes[i].calcularNotaTotal()+ "");
                 }
+            }
+        }
+    }
+
+    public void mostrarRendimiento(){
+        for(int i = 0; i < estudiantes.length; i++){
+            if(estudiantes[i] != null){
+                System.out.println("Estudiante: "+ estudiantes[i].getNombre()+" Rendimiento: "+ estudiantes[i].rendimiento()+ "");
             }
         }
     }
