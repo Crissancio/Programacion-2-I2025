@@ -1,0 +1,7 @@
+{
+    "id": 1,
+    "nombre": "Paracetamol",
+    "tipo": "Analgesico",
+    "precio": 10.5,
+    "stock": 100
+}

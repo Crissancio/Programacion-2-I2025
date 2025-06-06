@@ -1,0 +1,7 @@
+{
+    "id": 2,
+    "nombre": "Ibuprofeno",
+    "tipo": "Antiinflamatorio",
+    "precio": 15.0,
+    "stock": 50
+}

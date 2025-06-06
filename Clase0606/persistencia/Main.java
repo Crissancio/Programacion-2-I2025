@@ -7,27 +7,23 @@ import java.util.ArrayList;
 public class Main {
     private static String rutaBase = "F:/program/aux_121/Programacion-2-I2025/Clase0606/personaJava/";
     public static void main(String[] args) throws IOException {
-        /*
-        Persona p1 = new Persona(1, "Juan", 25);
-        Persona p2 = new Persona(2, "Ana", 30);
-        Persona p3 = new Persona(3, "Luis", 22);
-        Persona p4 = new Persona(4, "Maria", 28);
-        Persona p5 = new Persona(5, "Carlos", 35);
+        Farmacia farmacia = new Farmacia("Farmacia Central");
 
-        p1.guardar();
-        p2.guardar();
-        p3.guardar();
-        p4.guardar();
-        p5.guardar();
-        */
+        farmacia.cargarPersonas();
+        farmacia.cargarMedicamentos();
 
+        System.out.println("------------MEDICAMENTOS------------");
+        farmacia.mostrarMedicamentos();
+        System.out.println("\n------------PERSONAS---------------");
+        farmacia.mostrarPersonas();
 
-        ArrayList<Persona> datos = new ArrayList<>();
-        cargarDatos(datos);
-        for (Persona p : datos) {
-            System.out.println(p);
-        }
-        
+        //System.out.println("-------------VENDER MEDICAMENTO----------");
+        //farmacia.venderMedicamento("Ibuprofeno", 4);
+
+//        System.out.println("------------MEDICAMENTOS------------");
+  //      farmacia.mostrarMedicamentos();
+    //    System.out.println("\n------------PERSONAS---------------");
+      //  farmacia.mostrarPersonas();
     }
 
     public static void cargarDatos(ArrayList<Persona> datos) throws IOException{

@@ -68,4 +68,8 @@ public class Persona {
     public String toString() {
         return "ID: " + id + ", Nombre: " + nom + ", Edad: " + edad;
     }
+
+    public String getNom(){
+        return this.nom;
+    }
 }

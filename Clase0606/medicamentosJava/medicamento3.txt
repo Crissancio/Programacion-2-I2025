@@ -1,0 +1,5 @@
+3
+Amoxicilina
+Antibiotico
+20.0
+30
