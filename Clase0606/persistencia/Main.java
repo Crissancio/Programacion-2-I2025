@@ -20,6 +20,8 @@ public class Main {
         p4.guardar();
         p5.guardar();
         */
+
+
         ArrayList<Persona> datos = new ArrayList<>();
         cargarDatos(datos);
         for (Persona p : datos) {

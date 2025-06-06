@@ -2,7 +2,6 @@ from Persona import Persona
 import os
 
 ruta_base = "F:/program/aux_121/Programacion-2-I2025/Clase0606/personaPython"
-
 def llenarDatos():
     datos = []
     carpeta = ruta_base
@@ -24,9 +23,11 @@ p1.guardarDatos()
 p2.guardarDatos()
 p3.guardarDatos()
 p4.guardarDatos()
-p5.guardarDatos()'''
+p5.guardarDatos()
 
+
+'''
 datos = llenarDatos()
 for persona in datos:
     print(persona)
-    
+

@@ -23,6 +23,7 @@ class Persona:
         
     def guardarDatos(self):
         os.makedirs(rutaBase, exist_ok=True)
+        
         if not os.path.exists(self.archivo):
             with open(self.archivo, 'w') as archivo:
                 datos = {
@@ -33,7 +34,7 @@ class Persona:
                 
                 with open(self.archivo, 'w') as archivo:
                     json.dump(datos, archivo, indent=4)
-            print(f"Datos guardados en: persona{self.id}.son")
+            print(f"Datos guardados en: persona{self.id}.json")
 
         
     def actualizarDatos(self):
