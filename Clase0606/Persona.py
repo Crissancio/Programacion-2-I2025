@@ -3,7 +3,7 @@ import json
 
 rutaBase = "F:/program/aux_121/Programacion-2-I2025/Clase0606/personaPython"
 class Persona:
-    def __init__(self, id, nom, edad):
+    def __init__(self, id=None, nom=None, edad=None):
         self.id = id
         self.nom = nom
         self.edad = edad
