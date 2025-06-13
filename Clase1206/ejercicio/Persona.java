@@ -12,4 +12,11 @@ public abstract class Persona {
 
     abstract public String toString();
     
+    public String getNom() {
+        return nom;
+    }
+
+    public String getApe() {
+        return ape;
+    }
 }

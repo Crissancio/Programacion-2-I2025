@@ -16,4 +16,12 @@ public class Materia {
     public String toString(){
         return "\nMateria: " + sigla + ", Descripcion: " + desc + ", Nota 1: " + nota1 + ", Nota 2: " + nota2 + ", Docente: " + docente;
     }
+
+    public float notaTotal(){
+        return (nota1+nota2)/2;
+    }
+
+    public boolean tieneDoncente(String nom, String ape){
+         return docente.getNom().equals(nom) && docente.getApe().equals(ape);
+    }
 }

@@ -24,7 +24,6 @@ class Medicamento:
                     "precio": self.precio,
                     "stock": self.stock
                 }
-                
                 json.dump(datos, archivo, indent=4)
     
     def cargarDatos(self, rutaArchivo):
